@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-areas:
+        "gren gren gren "
+        "yello orang redd"
+        "yello blu redd";
+}
+
+#green{
+    grid-area: gren;
+}
+#yellow{
+    grid-area: yello;
+}
+#orange{
+    grid-area: orang;
+}
+#blue{
+    grid-area: blu;
+}
+#red{
+    grid-area: redd;
+}
